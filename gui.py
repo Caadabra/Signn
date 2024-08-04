@@ -246,7 +246,7 @@ class WebcamWidget(QWidget):
 
     def open_github(self):
         # Open the GitHub repository in the web browser
-        url = QUrl("https://github.com/")  # GitHub URL
+        url = QUrl("https://github.com/Caadabra/Signn")  # GitHub URL
         QDesktopServices.openUrl(url)
 
     def clear_console(self):
