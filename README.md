@@ -42,12 +42,12 @@ Ensure you have Python 3.8 or higher installed on your system.
 4. **Run the application**:
 
     ```sh
-    python main.py
+    python gui.py
     ```
 
 ## Usage
 
-1. Launch the application by running `main.py`.
+1. Launch the application by running `gui.py`.
 2. The webcam feed will start automatically.
 3. Use the activation switch to toggle gesture recognition on or off.
 4. Detected gestures will be displayed in the console.
@@ -67,7 +67,7 @@ Below are some example ASL hand gestures recognized by the application:
 
 ## Code Structure
 
-- `main.py`: Main application code, including the GUI and video processing.
+- `gui.py`: Main application code, including the GUI and video processing.
 - `gestures.py`: Contains the `GestureRecognizerThread` class for gesture recognition.
 - `PrivacyDialog`: Class for the privacy policy dialog.
 - `WebcamWidget`: Main widget for displaying the video feed and recognized gestures.
@@ -98,4 +98,4 @@ cd ASL-AI-Interpreter
 python -m venv venv
 source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 pip install -r requirements.txt
-python main.py
+python gui.py
