@@ -22,7 +22,7 @@ Ensure you have Python 3.8 or higher installed on your system.
 1. **Clone the repository**:
 
     ```sh
-    git clone https://github.com/your-username/ASL-AI-Interpreter.git
+    git clone https://github.com/caadabra/ASL-AI-Interpreter.git
     cd ASL-AI-Interpreter
     ```
 
@@ -93,7 +93,7 @@ For any questions or suggestions, please open an issue on GitHub or contact us a
 ### Example Command to Clone and Run
 
 ```sh
-git clone https://github.com/your-username/ASL-AI-Interpreter.git
+git clone https://github.com/caadabra/ASL-AI-Interpreter.git
 cd ASL-AI-Interpreter
 python -m venv venv
 source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
