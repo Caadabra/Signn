@@ -53,6 +53,18 @@ Ensure you have Python 3.8 or higher installed on your system.
 4. Detected gestures will be displayed in the console.
 5. Use the buttons for privacy policy information, opening the GitHub repository, and clearing the console.
 
+## Example ASL Hand Gestures
+
+Below are some example ASL hand gestures recognized by the application:
+
+![Gesture A](gitassests/gesture1.png)
+
+![Gesture B](gitassests/gesture2.png)
+
+![Gesture C](gitassests/gesture3.png)
+
+![Gesture D](gitassests/gesture4.png)
+
 ## Code Structure
 
 - `main.py`: Main application code, including the GUI and video processing.
