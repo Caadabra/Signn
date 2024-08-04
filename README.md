@@ -62,7 +62,7 @@ Ensure you have Python 3.8 or higher installed on your system.
 
 ## Privacy Policy
 
-This application respects your privacy. It does not store or transmit any video data. All processing is done locally on your device. For more information, visit our GitHub page.
+This application respects your privacy. It does not store or transmit any video data. All processing is done locally on your device.
 
 ## Contributing
 
