@@ -12,7 +12,7 @@ class GestureRecognizerThread(threading.Thread):
         self.frame_queue = frame_queue  # Queue for incoming video frames
         self.result_queue = result_queue  # Queue for output results
         self.running = True  # Thread control flag
-        self.frame_skip = 2  # Default number of frames to skip
+        self.frame_skip = 1  # Default number of frames to skip
         self.recognizer = None  # Gesture recognizer instance
         self.initialize_recognizer()  # Initialize the gesture recognizer
 
